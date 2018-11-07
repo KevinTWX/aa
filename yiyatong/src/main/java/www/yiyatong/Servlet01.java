@@ -10,6 +10,7 @@ public class Servlet01 extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+		System.out.println("4654646446");
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
